@@ -1,0 +1,78 @@
+@media (max-width: 1000px){
+    .home-img img {
+        width: 100%;
+    }
+}
+@media (max-width: 820px){
+    .home .home-warpper .home-info h2 {
+        font-size: 32px;
+        line-height: 50px;
+    }
+}
+@media (max-width: 700px){
+    span#menu-icon {
+        display: initial;
+    }
+    .header .menu {
+        display: flex;
+        flex-direction: column;
+        background: grey;
+        width: 100%;
+        text-align: center;
+        z-index: 100;
+        position: absolute;
+        top: 0px;
+        left: -1000px;
+        right: 0;
+        width: 50%;
+        background: #dfdfdf;
+        gap: 1rem;
+        padding: 50px 10px;
+        transition: .4s;
+        /* height: 100vh; */
+    }
+    .menu-active{
+        left: 0px;
+    }
+    .header .menu a {
+        font-size: 17px;
+        font-weight: 500;
+        margin-right: 20px;
+        color: var(--primary-color);
+        transition: .4s;
+        background: transparent;
+        margin: 10px 0px;
+    }
+}
+@media (max-width: 768px){
+    .home .home-warpper .home-info h2 {
+        font-size: 32px;
+        line-height: 50px;
+    }
+    .chef .chef-warpper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .services-img {
+        text-align: center;
+    }
+}
+@media (max-width: 690px){
+    .home .home-warpper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .home .home-warpper .home-info h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .home-img img {
+        width: 100%;
+        margin-top: 40px;
+    }
+    .special .special-food-warpper {
+        gap: 3rem;
+    }
+    .special .special-food-warpper .food-box .price {
+        width: 250px;
+        margin: 0 auto;
+    }
+}
